@@ -1,0 +1,95 @@
+/* Картите за новините */
+
+body{
+	background-color: rgb(215, 215, 215);
+    background-image:  url(/img/bg54.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+     
+      overflow-x: hidden;
+}
+.card {
+	border-radius: 5px;
+	box-shadow: 0 0 10px #19BFB7;
+	padding: 16px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.829);
+	margin: 10px 0;
+	width: auto;
+	display: block;
+	align-items: center;
+	align-self: center;
+	color: #19BFB7;
+	font-family: Arial, sans-serif;
+  }
+  .logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	 max-width: 20%;
+	 max-height: 20%;
+ }
+  
+  /* Стилове за десктоп версия */
+  .column {
+	float: center;
+	
+	padding: 0 10px;
+  }
+  
+  /* Очистване на float */
+  
+  /* Стилове за мобилна версия */
+  @media only screen and (max-width: 768px) {
+	.column {
+	  width: 100%;
+	  padding: 0;
+	}
+
+.card{
+	
+	display: flex;
+	justify-content: center; /* horizontally center the columns */
+	align-items: center; /* vertically center the columns */
+	flex-wrap: wrap;
+	width: auto ;
+	background-color: black;
+}
+
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  padding: 0;
+	}
+
+.card{
+	
+	display: flex;
+	justify-content: center; /* horizontally center the columns */
+	align-items: center; /* vertically center the columns */
+	flex-wrap: wrap;
+	width: auto ;
+}
+
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+	 max-width: 60%;
+	 max-height: 60%;
+ }
+
+  }
+  

@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    color: #19BFB7;
+    font-family: Arial, sans-serif;
+	
+}
+.logo {
+	align-self: center;
+  
+	
+	 max-width: 30%;
+	 max-height: 30%;
+ }
+ i{
+	color: #19BFB7;
+	
+ }
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.bg{
+	background-color: rgba(0, 0, 0, 0.722);
+	border-radius: 30px;
+	padding: 20px;
+}
+hr{
+color: #19BFB7;
+}
+
+body {
+    background-color: rgb(215, 215, 215);
+    background-image: url(/img/secpage.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+      overflow-y: hidden;
+      overflow-x: hidden;
+}
+
+h1{
+	
+
+color: #19BFB7;
+
+}
+.social  a i {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.722);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.636);
+  z-index: 1;
+   
+}
